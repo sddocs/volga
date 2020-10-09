@@ -47,8 +47,8 @@
         <h1>Фильтрация</h1>
         <div class="filters">
             <select name="custom_status" id="custom_status">
-                <option value="0">Оформлено</option>
-                <option value="1">В ожидании</option>
+                <option value="1">Оформлено</option>
+                <option value="0">В ожидании</option>
             </select>
             <select name="custom_total" id="custom_total">
                 <option value="1"><1000 рублей</option>
@@ -61,17 +61,22 @@
             </select>
         </div>
         <br>
-        <div class="search">
-            <label for="search">Поиск</label>
-            <input type="text" name="search" id="search">
-        </div>
+        <form action="" method="post" id="form-search">
+            <div class="form-group">
+                <label for="search">Поиск</label>
+                <input type="text" name="search" id="search" placeholder="Введите адрес...">
+            </div>
+            <div class="form-group">
+                <button type="submit" name="search_start" id="search_start" class="btn btn-success">Поиск</button>
+            </div>
+        </form>
         <h1>Список заказов</h1>
         <div class="customs">
             <table border="1">
                 <tr>
-                    <th>Название товара</th>
-                    <th>Описание товара</th>
+                    <th>№</th>
                     <th>Адрес</th>
+                    <th>Комментарий</th>
                     <th>Дата оформления</th>
                     <th>Статус</th>
                     <th>Сумма заказа</th>
@@ -80,12 +85,12 @@
                     <div class="custom">
                         <?php $product = DateBase::findProduct((int)$custom['id_product']); ?>
                         <tr>
-                            <td><?= $product['title']; ?></td>
-                            <td><?= $product['description']; ?></td>
+                            <td><?= $custom['id']; ?></td>
+                            <td><?= $custom['comment']; ?></td>
                             <td><?= $custom['address']; ?></td>
                             <td><?= $custom['date_purchase']; ?></td>
                             <td><?= $custom['status_purchase']; ?></td>
-                            <td><?= $product['total']; ?></td>
+                            <td><?= $custom['sum_custom']; ?></td>
                             <td><a href="custom.php?id_custom=<?= $custom['id']; ?>">Подробнее</a></td>
                         </tr>
                     </div>

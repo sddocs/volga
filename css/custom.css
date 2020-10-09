@@ -28,12 +28,3 @@ header{
 .menu a{
     margin-right: 20px;
 }
-
-#form-search{
-    display: flex;
-    align-items: center;
-}
-
-#search_start{
-    margin-left: 10px;
-}

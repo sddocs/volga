@@ -5,7 +5,7 @@
         $password = $_POST['user_password'];
         $confirm_password = $_POST['user_confirm_password'];
         if ($password === $confirm_password){
-            $password = password_hash($_POST['user_password'], PASSWORD_DEFAULT);
+            $password = $_POST['user_password'];
             DateBase::registerUser($login, $password, 2000);
             setcookie('user_login', $login, time() + 3600*24);
             setcookie('user_password', $password, time() + 3600*24);

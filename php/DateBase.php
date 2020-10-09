@@ -86,4 +86,22 @@ class DateBase
         $query->execute(array(1, $id));
     }
 
+    public static function search($text){
+        $query = self::getConnect()->prepare("SELECT * FROM `customs` WHERE `comment` LIKE ? ");
+        $query->execute(array("%$text%"));
+        return $query->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public static function filterStatus($status){
+        $query = self::getConnect()->prepare("SELECT * FROM `customs` ORDER BY `status_purchase` = ? ASC");
+        $query->execute(array($status));
+        return $query->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public static function filterDate($date){
+        $query = self::getConnect()->prepare("SELECT * FROM `customs` ORDER BY `date_purchase` ASC");
+        $query->execute(array($date));
+        return $query->fetchAll(PDO::FETCH_ASSOC);
+    }
+
 }
