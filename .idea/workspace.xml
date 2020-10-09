@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0977235-4ff4-4d9e-9b0f-d5d635bdb617" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1idBGl9VB04ToYLq88rSyisRHrC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0977235-4ff4-4d9e-9b0f-d5d635bdb617" name="Default Changelist" comment="" />
+      <created>1602227498580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602227498580</updated>
+      <workItem from="1602227500368" duration="23183000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="845" y="354" width="738" height="332" key="#File_Watchers" timestamp="1602232646109">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="845" y="354" width="738" height="332" key="#File_Watchers/0.0.1920.1040@0.0.1920.1040" timestamp="1602232646109" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602227602264">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602227602264" />
+    <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1602232642348">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602232642348" />
+    <state width="271" height="457" key="HiddenNamespacesPopup" timestamp="1602232746558">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="271" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1602232746558" />
+    <state x="787" y="243" key="NewPhpClassDialog" timestamp="1602228839738">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="787" y="243" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602228839738" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1602249222411">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602249222411" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1602232584670">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602232584670" />
+    <state x="859" y="397" width="505" height="246" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1602228149280">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="859" y="397" width="505" height="246" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1920.1040@0.0.1920.1040" timestamp="1602228149280" />
+    <state x="599" y="256" width="749" height="524" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1602246995211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="599" y="256" width="749" height="524" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602246995211" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1602244410874">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602244410874" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602236400229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602236400229" />
+  </component>
+</project>

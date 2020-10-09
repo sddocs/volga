@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table tr td{
+    padding: 5px;
+}
+
+table tr th{
+    padding: 5px;
+}
+
+header{
+    margin-top: 20px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu a{
+    margin-right: 20px;
+}
